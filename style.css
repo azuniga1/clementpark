@@ -22,10 +22,10 @@ body{
     background-color:#f5cac3 ;
 }
 
-@media (min-width:992px) and (max-width: 1199px ){
+@media (min-width:991px) and (max-width: 1199px ){
     .overflow{
-        width: 480px;
-        height: 290px;
+        width: 450px;
+        height: 285px;
         overflow: scroll;
         margin-top: 15px;
     }
@@ -35,7 +35,17 @@ body{
 @media (min-width:1200px) and (max-width: 1400px ){
     .overflow{
         width: 550px;
-        height: 336px;
+        height: 340px;
+        overflow: scroll;
+        margin-top: 15px;
+    }
+}
+
+
+@media (min-width: 1401px ){
+    .overflow{
+        width: 625px;
+        height: 400px;
         overflow: scroll;
         margin-top: 15px;
     }
